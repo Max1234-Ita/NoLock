@@ -1,4 +1,4 @@
-# NoLock
+# NoLock <img src="/resources/mooon.png">
  Prevents the PC from auto-locking due to user inactivity.
 
 This program will run in background and simulate user activity either by moving the mouse pointer or emulating some key press.
