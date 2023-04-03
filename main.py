@@ -19,7 +19,7 @@ from pynput.keyboard  import Listener, Key
 from pyinstaller_cleanup import cleanup_mei
 from mbk_config import MBKConfig
 
-version = "0.0.2"
+version = "0.1.0"
 about = f"NoLock v.{version} -- By Massimo Mula, 2023"
 
 standalone_app = getattr(sys, 'frozen', False)  # Packages created by PyInstaller have 'frozen' attribute == True.
