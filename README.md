@@ -1,5 +1,5 @@
 # NoLock
- Prevents the PC from auto-locking due to user inactivity
+ Prevents the PC from auto-locking due to user inactivity.
 
 This program will run in background and simulate user activity either by moving the mouse pointer or emulating some key press.
 A small icon in the system tray will indicate the program is active.
