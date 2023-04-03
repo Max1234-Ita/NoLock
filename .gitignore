@@ -2,3 +2,4 @@
 CON
 build
 *.notanexecutable
+*.spec
