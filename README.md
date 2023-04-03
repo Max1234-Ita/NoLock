@@ -8,7 +8,7 @@ A small icon in the system tray will indicate the program is active.
 If the user moves the mouse pointer or presses any key on the keyboard, then the inactivity timer will be reset, so no action will
 be taken if the computer is actually used.
 
-Program configuration is stored in file _config.ini_ : so far, the file must be changed manually (no configuration utility yet).
+Program configuration is stored in file _config.ini_ : so far, the file must be changed manually (no configuration utility yet). <br/>
 
 ; EXAMPLE
 
@@ -37,4 +37,7 @@ DetectKeyPress = True             ; Enable/disable detection of keyboard activit
 DetectMouseMove = True            ; Enable/disable detection of mouse activity (from user)
 SkipIfUserActivity = True         ; True: program will take no action if the user presses a key and/or moves the mouse. False: Activity emulation will take place anyway.
 ```
+
+
+**IMPORTANT** - config.ini MUST be present in the same directory as the main script/executable, or the program won't start.
 
