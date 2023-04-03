@@ -5,6 +5,7 @@ rem opened from the IDE: this will pass the settings used in the development env
 @echo off
 cls
 del .\dist\nolock*.exe >NUL
+del .\dist\nolock*.zip >NUL
 echo.
 rem Build the windowed version
 echo Building NoLock.exe
@@ -30,5 +31,12 @@ pyinstaller ^
 	--add-data resources\;\resources\ ^
 	-n NoLock_CLI.exe^
 	Main.py
+
+
+rem Build the release zip file
+echo Building the zip file
+powershell Compress-Archive -Path dist\*.* -DestinationPath dist\NoLock.zip
+
 	
 timeout /t 10
+
